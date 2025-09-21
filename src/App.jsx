@@ -28,6 +28,7 @@ function App() {
       <div className={`min-h-screen transition-opacity duration-700 ${isLoaded ? 'opacity-100' : 'opacity-0'} bg-[#323532] text-[#8F8A76]`}>
 
         <NavBar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+        <img src='/icon.png' alt='icon'/>
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
         <Home />
         <About />
