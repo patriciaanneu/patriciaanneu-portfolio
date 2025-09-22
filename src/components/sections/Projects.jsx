@@ -1,4 +1,5 @@
 import React from 'react'
+import timerImage from '../../assets/timer.png'
 {/*
     portfolio-react
     Patricia Anne Usal
@@ -30,7 +31,7 @@ export const Projects = () => {
                 </div>
                 <div>
                     <a href='https://patriciaanneu.github.io/User_Countdown_Timer/' target = '_blank' className='text-[#8F8A76] hover:text-[#BE4732E6] transitions-colors my-4'>
-                        <img src='/timer.png' />                    
+                        <img src={timerImage} />                    
                     </a>
                 </div>
                 </div>
