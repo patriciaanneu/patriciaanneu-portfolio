@@ -13,6 +13,7 @@ html, body {
     font-family: "Space Grotesk", sans-serif;
     background: #323532;
     color: #8F8A76;
+    scroll-behavior: smooth;
 }
 
 /*blink animation*/
