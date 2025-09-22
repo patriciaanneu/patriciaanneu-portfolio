@@ -1,5 +1,9 @@
 import React from 'react'
 import timerImage from '../../assets/timer.png'
+import heavenlyImage from '../../assets/heavenly.png'
+import libraryImage from '../../assets/library.png'
+import reeseImage from '../../assets/reese.png'
+
 {/*
     portfolio-react
     Patricia Anne Usal
@@ -54,7 +58,7 @@ export const Projects = () => {
                 </div>
                 <div>
                     <a href='https://patriciaanneu.github.io/HeavenlyTreats/' target = '_blank' className='text-[#8F8A76] hover:text-[#BE4732E6] transitions-colors my-4'>
-                        <img src='/heavenly.png' />
+                        <img src={heavenlyImage} />
                     </a>
                 </div>
                 </div>
@@ -77,7 +81,7 @@ export const Projects = () => {
                 </div>
                 <div className='flex justify-between items-center'>
                     <a href='https://patriciaanneu.github.io/Online_Library_System/' target = '_blank' className='text-[#8F8A76] hover:text-[#BE4732E6] transitions-colors my-4'>
-                        <img src='/library.png' />
+                        <img src={libraryImage} />
                     </a>
                 </div>
                 </div>
@@ -100,7 +104,7 @@ export const Projects = () => {
                 </div>
                 <div className='flex justify-between items-center'>
                     <a href='https://patriciaanneu.github.io/favourite_product/Assignment3.html' target = '_blank' className='text-[#8F8A76] hover:text-[#BE4732E6] transitions-colors my-4'>
-                        <img src='/reese.png' />
+                        <img src={reeseImage} />
                     </a>
                 </div>
                 </div>

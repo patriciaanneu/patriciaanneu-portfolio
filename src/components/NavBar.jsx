@@ -1,4 +1,6 @@
 import React, { useEffect } from 'react'
+import iconImage from '../assets/icon.png'
+
 {/*
     portfolio-react
     Patricia Anne Usal
@@ -15,7 +17,7 @@ export const NavBar = ({menuOpen, setMenuOpen}) => {
         <div className='max-w-5xl mx-auto px-4'>
             <div className='flex justify-between items-center h-16'>
                 <a href='#home' alt = 'icon' className='font-mono text-xl font-bold text-[#8F8A76] flex items-center'>
-                    <img src='/icon.png' className='mr-2 object-contain' style={{width: '55px', height: '55px'}}/>
+                    <img src={iconImage} className='mr-2 object-contain' style={{width: '55px', height: '55px'}}/>
                     patricia<span className='text-[#BE4732]'>anne</span><span className='text-[#8F8A76]'>u</span>
                 </a>
 
