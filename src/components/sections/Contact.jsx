@@ -18,7 +18,7 @@ export const Contact = () => {
                         id='name'
                         name='name'
                         required
-                        className='w-full bg-white/5 border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/50'
+                        className='w-full bg-white/5 border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-[#BE4732] focus:bg-[#BE473240]'
                         placeholder='Full Name'></input>
                 </div>
 
@@ -28,7 +28,7 @@ export const Contact = () => {
                         id='number'
                         name='number'
                         required
-                        className='w-full bg-white/5 border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/50'
+                        className='w-full bg-white/5 border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-[#BE4732] focus:bg-[#BE473240]'
                         placeholder='Contact Number'></input>
                 </div>
 
@@ -38,7 +38,7 @@ export const Contact = () => {
                         id='email'
                         name='email'
                         required
-                        className='w-full bg-white/5 border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/50'
+                        className='w-full bg-white/5 border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-[#BE4732] focus:bg-[#BE473240]'
                         placeholder='Email'></input>
                 </div>
 
@@ -48,7 +48,7 @@ export const Contact = () => {
                         name='message'
                         required
                         rows={5}
-                        className='w-full bg-white/5 border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/50'
+                        className='w-full bg-white/5 border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-[#BE4732] focus:bg-[#BE473240]'
                         placeholder='Your Message'></textarea>
                 </div>
 
